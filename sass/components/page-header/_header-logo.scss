@@ -1,0 +1,8 @@
+.page-header__logo {
+  @extend %logo;
+  margin-right: 93px;
+
+  &--accent {
+    color: #000000;
+  }
+}

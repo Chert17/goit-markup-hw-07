@@ -1,0 +1,10 @@
+.page-footer__logo {
+  @extend %logo;
+
+  display: block;
+  margin-bottom: 20px;
+}
+
+.page-footer__logo--accent {
+  color: $secondary-white-color;
+}

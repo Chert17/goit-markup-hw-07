@@ -42,9 +42,7 @@
   top: 8px;
   right: 8px;
 
-  transition-duration: 250ms;
-  transition-timing-function: $cubic-bezier;
-
+  transition: fill 250ms $cubic-bezier;
   @include centeredFlex();
 
   width: 30px;
@@ -55,6 +53,7 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
 
+  &:hover,
   &:focus {
     fill: $accent-color;
   }

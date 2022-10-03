@@ -29,6 +29,10 @@
 
 .user-data__specification {
   margin-bottom: 4px;
+
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
 }
 
 .input-wrapper {
@@ -116,7 +120,6 @@
     background-color: $accent-color;
     background-image: url("../img/check-icon.svg");
     background-size: contain;
-    background-origin: border-box;
     border-color: transparent;
     background-repeat: no-repeat;
     background-position-y: 1px;

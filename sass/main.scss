@@ -1,7 +1,7 @@
-@import "./utils/variables";
-@import "./utils/utilits";
-@import "./utils/mixin";
-@import "./utils/placeholder";
+@import "./utils/module";
+@import "./base/module";
+@import "./themes/module";
+@import "./utils/module";
 @import "./components/page-header";
 @import "./components/hero";
 @import "./components/quality";

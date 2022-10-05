@@ -599,6 +599,7 @@ button {
 
 .input-wrapper {
   position: relative;
+  display: block;
 }
 
 .form__field {
